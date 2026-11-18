@@ -19,7 +19,8 @@ if (response.status_code == 200):
         "======BASIC DATA======", 
         f"cid: {data_cid}", 
         f"Danmu link: https://comment.bilibili.com/{data_cid}.xml", 
-        f"Cover link: {data_pic}", "======================", 
+        f"Cover link: {data_pic}", 
+        "======================", 
     sep = "\n", end = "\n\n")
 
     # 然后询问是否需要额外操作
